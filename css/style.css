@@ -61,6 +61,7 @@ body a,a:hover{
 .wrap{
 	max-width: 1024px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .menu{
@@ -68,6 +69,8 @@ body a,a:hover{
 	justify-content: space-between;
 	background: rgba(0, 0, 0, 0.5);
 	padding: 0 20px;
+	position: absolute;
+	width: 100%;
 }
 .menu h1{
 	margin: auto 0;
@@ -126,7 +129,6 @@ body a,a:hover{
 .footer-sns a:hover{
 	opacity: 0.4;
 }
-
 
 
 .banner{
@@ -263,3 +265,89 @@ h3{
 	outline:none;
 	box-shadow:0 0 20px 5px skyblue;
 }
+
+
+/* course */
+
+.banner-course{
+	display: flex;
+	justify-content: space-between;
+	padding: 120px 40px 170px;
+	background: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_course.png) no-repeat;
+}
+.banner-course h2{
+	color: #FFF;
+	line-height: 40px;
+	margin-top: 60px;
+}
+.banner-course h2 span{
+	font-size: 24px;
+	color: #00cc99;
+}
+.container-course h3{
+	margin: auto 0;
+}
+.container-course ul li{
+	padding: 1% 0 1% 5%;
+}
+.teacher{
+	display: flex;
+	justify-content: space-between;
+	margin: 5% 20%;
+	flex-wrap: wrap;
+}
+.teacher span{
+	line-height: 140%;
+	color: #000;
+}
+.teacher ul{
+	margin: auto 0;
+	list-style: outside;
+	line-height: 140%;
+}
+.container-text{
+	font-size: 18px;
+	color: #9b9b9b;
+	margin-left: 5%;
+}
+.course-course{
+	margin: auto 20%;
+}
+.course-course ul{
+	margin: 5% auto;
+}
+.course-decimal{
+	list-style: decimal;
+}
+.course-list li{
+	margin-bottom: 3%;
+}
+.course-list li span{
+	color: #9b9b9b;
+}
+.course-form{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	padding: 10%;
+	flex-wrap: wrap;/*RWD換行*/
+}
+.course-form p{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.course-btn{
+	text-decoration: none;
+	font-size: 24px;
+	color: #FFF;
+	padding: 15px 50px;
+	background: #00cc99;
+	border-radius: 10px;
+}
+.course-btn:hover{
+	color: #FFF;
+	background: rgb(158, 97, 255);
+}
+
+/* Q&A */
